@@ -8,12 +8,16 @@ body {
 }
 
 .header {
+  border: 5px solid green;
+  padding: 5px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 
-  /* Wrapping the entire header in a flexbox */
-  display: flex;
+  /* Inline block display scheme */
+  display: inline-block;
+
+
 }
 
 .profile-image {
@@ -49,11 +53,24 @@ ul {
   list-style-type: none;
 }
 
-/* Flex content of left-header-content */
+/* Flex context of left-header-content */
 .left-header-content {
-  display: flex;
+  border: 5px solid black;
+
+  display: inline-block;
 }
-/* Flex content of right-header-content */
+/* Flex context of right-header-content */
 .right-header-content {
-  display: flex;
+  border: 5px solid black;
+
+  display: inline-block;
+}
+
+/* Flex context of the links  */
+.links {
+  border: 5px solid black;
+  margin: 0;
+  /* border: 5px solid black; */
+  padding: 0px;
+  gap: 16px;
 }
